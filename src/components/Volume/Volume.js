@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import volumeOff from '../../assets/volume-off.svg'
-import volumeOn from '../../assets/volume-on.svg'
+import VolumeOff from '../../assets/volume-off.svg'
+import VolumeOn from '../../assets/volume-on.svg'
 import Slider from '../Slider/Slider'
 
 const Volume = ({
@@ -14,8 +14,7 @@ const Volume = ({
 }) => (
   <>
     {volume === 0 ? (
-      <img
-        src={volumeOff}
+      <VolumeOff
         style={{
           fill: color,
           minWidth: Number((size / 2).toFixed()),
@@ -23,12 +22,11 @@ const Volume = ({
           cursor: 'pointer',
           marginRight: Number((size / 4).toFixed())
         }}
-        alt="volume-button"
+        alt='volume-button'
         onClick={handleToggleMute}
       />
     ) : (
-      <img
-        src={volumeOn}
+      <VolumeOn
         style={{
           fill: color,
           minWidth: Number((size / 2).toFixed()),
@@ -36,7 +34,7 @@ const Volume = ({
           cursor: 'pointer',
           marginRight: Number((size / 4).toFixed())
         }}
-        alt="volume-button"
+        alt='volume-button'
         onClick={handleToggleMute}
       />
     )}

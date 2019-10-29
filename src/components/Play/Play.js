@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import PlayStyled from './Play.styled'
-import play from '../../assets/play.svg'
-import pause from '../../assets/pause.svg'
+import PlayIcon from '../../assets/play.svg'
+import PauseIcon from '../../assets/pause.svg'
 
 const Play = ({
   isPlaying,
@@ -17,26 +17,24 @@ const Play = ({
     size={size}
   >
     {isPlaying ? (
-      <img
-        src={pause}
+      <PauseIcon
         style={{
           fill: color,
           minWidth: Number((size / 8 * 3).toFixed()),
           minHeight: Number((size / 2).toFixed()),
           cursor: 'pointer'
         }}
-        alt="pause-button"
+        alt='play-button'
       />
     ) : (
-      <img
-        src={play}
+      <PlayIcon
         style={{
           fill: color,
           minWidth: Number((size / 8 * 3).toFixed()),
           minHeight: Number((size / 2).toFixed()),
           cursor: 'pointer'
         }}
-        alt="play-button"
+        alt='pause-button'
       />
     )}
   </PlayStyled>
