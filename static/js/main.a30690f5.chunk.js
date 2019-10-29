@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-hooks-player-example"]=this["webpackJsonpreact-hooks-player-example"]||[]).push([[0],{13:function(e,t,n){e.exports=n(23)},18:function(e,t,n){},23:function(e,t,n){"use strict";n.r(t);var o=n(0),a=n.n(o),r=n(7),c=n.n(r),l=(n(18),n(8)),p=function(){return a.a.createElement(l.a,{title:"Some audio track",url:"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"})};c.a.render(a.a.createElement(p,null),document.getElementById("root"))}},[[13,1,2]]]);
+//# sourceMappingURL=main.a30690f5.chunk.js.map
