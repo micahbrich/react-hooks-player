@@ -18,7 +18,7 @@ const Play = ({
   >
     {isPlaying ? (
       <img
-        src={play}
+        src={pause}
         style={{
           fill: color,
           minWidth: Number((size / 8 * 3).toFixed()),
@@ -29,7 +29,7 @@ const Play = ({
       />
     ) : (
       <img
-        src={pause}
+        src={play}
         style={{
           fill: color,
           minWidth: Number((size / 8 * 3).toFixed()),
