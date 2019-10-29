@@ -1,7 +1,7 @@
 {
   "name": "react-hooks-player-example",
   "homepage": "https://vault-developer.github.io/react-hooks-player",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -12,6 +12,11 @@
     "styled-components": "^4.4.0",
     "react-hooks-player": "^1.0.1"
   },
+  "//": [
+    "local development dependencies:",
+    "react: file:../node_modules/react",
+    "react-hooks-player: file:.."
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
