@@ -1,8 +1,8 @@
-# audio-player-react
+# react-hooks-player
 
-> ui and audio tag wrapper for react
+> audio tag wrapper & UI for react
 
-[![NPM](https://img.shields.io/npm/v/audio-player-react.svg)](https://www.npmjs.com/package/audio-player-react)
+[![NPM](https://img.shields.io/npm/v/react-hooks-player.svg)](https://www.npmjs.com/package/react-hooks-player)
 
 ## Install
 
@@ -14,7 +14,7 @@ npm install --save audio-player-react
 
 ```jsx
 import React from 'react'
-import Player from 'audio-player-react'
+import Player from 'react-hooks-player'
 
 const App = () => {
   return (
