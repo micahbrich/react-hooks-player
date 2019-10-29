@@ -22,7 +22,7 @@ export default {
   ],
   plugins: [
     external(),
-    url({ exclude: ['**/*.svg'] }),
+    url({ exclude: ['**/*.svg1'] }),
     babel({
       exclude: 'node_modules/**'
     }),

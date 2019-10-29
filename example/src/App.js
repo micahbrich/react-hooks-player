@@ -1,12 +1,9 @@
 import React from 'react'
-import { useMyHook } from 'audio-player-react'
+import Player from 'audio-player-react'
 
 const App = () => {
-  const example = useMyHook()
   return (
-    <div>
-      {example}
-    </div>
+    <Player title='Some audio track' />
   )
 }
 export default App

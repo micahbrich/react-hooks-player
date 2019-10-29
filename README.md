@@ -29,6 +29,3 @@ const Example = () => {
 
 MIT © [vault-developer](https://github.com/vault-developer)
 
----
-
-This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).

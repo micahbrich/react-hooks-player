@@ -9,6 +9,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1",
+    "styled-components": "^4.4.0",
     "audio-player-react": "file:.."
   },
   "scripts": {
