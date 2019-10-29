@@ -1,7 +1,5 @@
 # react-hooks-player
 
-> audio tag wrapper & UI for react
-
 [![NPM](https://img.shields.io/npm/v/react-hooks-player.svg)](https://www.npmjs.com/package/react-hooks-player)
 
 ## Install

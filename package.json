@@ -24,8 +24,11 @@
   },
   "peerDependencies": {
     "react": "^16.8.6",
-    "styled-components": "^4.4.0",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.4.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
