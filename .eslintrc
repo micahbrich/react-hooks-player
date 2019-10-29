@@ -1,23 +1,45 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "standard",
-    "standard-react"
+    "graph"
   ],
   "env": {
-    "es6": true
+    "jest": true
   },
-  "plugins": [
-    "react"
-  ],
-  "parserOptions": {
-    "sourceType": "module"
+  "plugins": ["promise"],
+  "globals": {
+    "render": false
   },
   "rules": {
-    // don't force es6 functions to include space before paren
-    "space-before-function-paren": 0,
-
-    // allow specifying true explicitly for boolean props
-    "react/jsx-boolean-value": 0
+    "promise/prefer-await-to-then": "error",
+    "import/no-cycle": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "import/prefer-default-export": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "global-require": 0,
+    "no-shadow": ["off"],
+    "no-prototype-builtins": ["off"],
+    "no-underscore-dangle": ["off"],
+    "no-undef": ["off"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      "tab"
+    ]
   }
 }

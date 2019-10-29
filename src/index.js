@@ -1,3 +1,3 @@
-import Player from './components/Player/Player'
+import Player from './components/Player/Player';
 
-export default Player
+export default Player;
