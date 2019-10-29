@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5787da7952a565f69b2d6fbbf32c639f",
+    "revision": "92a7cc6cffe82ccb0efc3817c743558c",
     "url": "/react-hooks-player/index.html"
   },
   {
-    "revision": "cf63791cd1add2bbef2f",
-    "url": "/react-hooks-player/static/css/main.d2599055.chunk.css"
+    "revision": "0574f56bf2e9d9c50661",
+    "url": "/react-hooks-player/static/css/main.098378c9.chunk.css"
   },
   {
     "revision": "b308095130564e042922",
     "url": "/react-hooks-player/static/js/2.a32a1b58.chunk.js"
   },
   {
-    "revision": "cf63791cd1add2bbef2f",
+    "revision": "0574f56bf2e9d9c50661",
     "url": "/react-hooks-player/static/js/main.a30690f5.chunk.js"
   },
   {
