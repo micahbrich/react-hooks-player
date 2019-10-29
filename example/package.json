@@ -1,22 +1,20 @@
 {
-  "name": "audio-player-react-example",
-  "homepage": "https://vault-developer.github.io/audio-player-react",
+  "name": "react-hooks-player-example",
+  "homepage": "https://vault-developer.github.io/react-hooks-player",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "file:../node_modules/react",
     "react-dom": "^16.8.6",
+    "react": "^16.8.6",
     "react-scripts": "^3.0.1",
     "styled-components": "^4.4.0",
-    "audio-player-react": "file:.."
+    "react-hooks-player": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "browserslist": [
     ">0.2%",

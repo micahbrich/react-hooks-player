@@ -1,5 +1,5 @@
-import React from 'react'
-import Player from 'audio-player-react'
+import React from 'react';
+import Player from 'react-hooks-player';
 
 const App = () => (
 	<Player
