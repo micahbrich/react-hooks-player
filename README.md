@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save audio-player-react
+npm install --save react-hooks-player
 ```
 
 ## Usage
