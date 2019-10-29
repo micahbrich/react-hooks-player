@@ -95,9 +95,9 @@ const Player = ({
 
 Player.defaultProps = {
 	background: 'white',
-	color: '#1BABDA',
+	color: '#9582ab',
 	volumeControls: true,
-	height: 40
+	height: 50
 };
 
 Player.propTypes = {
