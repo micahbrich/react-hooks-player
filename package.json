@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-player",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ui and audio tag wrapper for react",
   "author": "vault-developer",
   "license": "MIT",
@@ -22,6 +22,16 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
+  "keywords": [
+    "react",
+    "audio",
+    "music",
+    "player",
+    "hook",
+    "mp3",
+    "ogg",
+    "sound"
+  ],
   "peerDependencies": {
     "react": "^16.8.6",
     "prop-types": "^15.7.2",
