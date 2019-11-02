@@ -24,9 +24,9 @@ const App = () => {
     <Player 
       url={}             //required
       title={}           //required
-      color={}           //default: '#9582ab'
+      color={}           //default: '#4b598e'
       background={}      //default: 'white'
-      volumeControls={}  //default: false
+      volumeControls={}  //default: true
       height={}          //default: 50
     />
   )
