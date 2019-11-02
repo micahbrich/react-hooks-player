@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import VolumeOff from '../../assets/volume-off.svg';
 import VolumeOn from '../../assets/volume-on.svg';
 import Slider from '../Slider/Slider';
-import {useVolume} from './hooks'
+import {useVolume} from './hooks';
 
 const Volume = ({
 	color,
@@ -60,7 +60,6 @@ const Volume = ({
 };
 
 Volume.propTypes = {
-	handleToggleMute: PropTypes.func,
 	handleSeekVolume: PropTypes.func,
 	size: PropTypes.number,
 	volume: PropTypes.number,
