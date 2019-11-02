@@ -7,10 +7,10 @@
   "dependencies": {
     "prop-types": "^15.6.2",
     "react-dom": "^16.8.6",
-    "react": "file:../node_modules/react",
+    "react": "^16.8.6",
     "react-scripts": "^3.0.1",
     "styled-components": "^4.4.0",
-    "react-hooks-player": "file:.."
+    "react-hooks-player": "1.0.4"
   },
   "//": [
     "local development dependencies:",
