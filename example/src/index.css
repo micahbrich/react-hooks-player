@@ -1,6 +1,6 @@
 html{
   min-height: 100vh;
-  background: lightblue;
+  background: linear-gradient(rgba(0, 104, 167, 0.73) 4%, rgba(27, 195, 218, 0.31) 70%);
   position: relative;
 }
 

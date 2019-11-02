@@ -28,16 +28,6 @@ export const usePlayer = () => {
 		audioRef.current.currentTime = time;
 	};
 
-	const handleToggleMute = () => {
-		if (volume > 0) {
-			setVolume(0);
-			audioRef.current.volume = 0;
-		} else {
-			setVolume(1);
-			audioRef.current.volume = 1;
-		}
-	};
-
 	const handleSeekVolume = volume => {
 		setVolume(volume);
 		audioRef.current.volume = volume;
@@ -75,7 +65,6 @@ export const usePlayer = () => {
 		handlePlay,
 		handlePause,
 		handleSeekTrack,
-		handleToggleMute,
 		handleSeekVolume
 	};
 };

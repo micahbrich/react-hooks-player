@@ -30,7 +30,6 @@ const Player = ({
 		handlePlay,
 		handlePause,
 		handleSeekTrack,
-		handleToggleMute,
 		handleSeekVolume
 	} = usePlayer();
 
@@ -65,7 +64,6 @@ const Player = ({
 							color={color}
 							size={height}
 							handleSeekVolume={handleSeekVolume}
-							handleToggleMute={handleToggleMute}
 							volume={volume}
 						/>
 					)}
