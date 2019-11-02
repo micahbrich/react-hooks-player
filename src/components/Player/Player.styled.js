@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const PlayerStyled = styled.div`
+	padding-left: ${({height}) => Number((height / 10).toFixed())}px;;
   width: 100%;
   box-sizing: border-box;
   height: ${({height}) => height}px;

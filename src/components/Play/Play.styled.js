@@ -10,6 +10,7 @@ export const PlayStyled = styled.button`
  display: flex;
  justify-content: center;
  align-items: center;
+ margin-right: ${({size}) => Number((size / 10).toFixed())}px;
  min-height: ${({size}) => size}px;
  min-width: ${({size}) => size}px;
 `;
