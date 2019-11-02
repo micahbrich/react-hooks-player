@@ -20,7 +20,7 @@ const Play = ({
 			<PauseIcon
 				style={{
 					fill: color,
-					minWidth: Number((size / 8 * 3).toFixed()),
+					minWidth: Number((size / 2).toFixed()),
 					minHeight: Number((size / 2).toFixed()),
 					cursor: 'pointer'
 				}}
@@ -30,7 +30,7 @@ const Play = ({
 			<PlayIcon
 				style={{
 					fill: color,
-					minWidth: Number((size / 8 * 3).toFixed()),
+					minWidth: Number((size / 2).toFixed()),
 					minHeight: Number((size / 2).toFixed()),
 					cursor: 'pointer'
 				}}
