@@ -5,7 +5,7 @@ try it [here](https://vault-developer.github.io/react-hooks-player) =)
 
 [![NPM](https://img.shields.io/npm/v/react-hooks-player.svg)](https://www.npmjs.com/package/react-hooks-player)
 ![NPM](https://img.shields.io/bundlephobia/minzip/react-hooks-player)
-![NPM](https://img.shields.io/npm/l/react-hooks-player)
+![NPM](https://img.shields.io/npm/l/react-hooks-player?)
 
 ## Install
 
