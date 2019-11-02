@@ -9,9 +9,9 @@ export const SliderStyled = styled.div`
   flex-grow: 1;
   cursor: pointer;
   position: relative;
-  border-radius: 10%;
+  border-radius: ${({size}) => size}px;;
   height: ${({size}) => (size / 5).toFixed()}px;
-  background-color: #E8E8E8;
+  background-color: #5e6fafba;
 `;
 
 export const ProgressStyled = styled.div`
@@ -29,8 +29,12 @@ export const PinStyled = styled.div`
   position: absolute;
   pointer-events: all;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.32);
-  transform: translate(50%, -25%);
+  transform: translate(50%, -25%) scale(1);
   right: 0;
   top: 0;
   background-color: ${({color}) => color};
+  
+  &:hover{
+  	  transform: translate(50%, -25%) scale(1.1);
+  }
 `;

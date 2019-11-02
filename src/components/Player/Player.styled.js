@@ -8,7 +8,7 @@ export const PlayerStyled = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 2px;
+  border-radius: ${({height}) => height}px;
   margin: 20px 0;
   user-select: none;
   background-color: ${({background}) => background};
