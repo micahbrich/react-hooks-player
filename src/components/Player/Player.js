@@ -17,7 +17,8 @@ const Player = ({
 	                color,
 	                height,
 	                background,
-	                volumeControls
+	                volumeControls,
+			preload
 }) => {
 	const {
 		time,
@@ -38,6 +39,7 @@ const Player = ({
 			<audio
 				ref={audioRef}
 				src={url}
+				preload={preload}
 			/>
 			<Play
 				isPlaying={isActive && isPlaying}
@@ -95,7 +97,8 @@ Player.defaultProps = {
 	background: '#4b598e',
 	color: 'white',
 	volumeControls: true,
-	height: 50
+	height: 50,
+	preload: 'auto'
 };
 
 Player.propTypes = {
@@ -104,7 +107,8 @@ Player.propTypes = {
 	title: PropTypes.string,
 	color: PropTypes.string,
 	volumeControls: PropTypes.bool,
-	height: PropTypes.number
+	height: PropTypes.number,
+	preload: PropTypes.string
 };
 
 export default Player;
